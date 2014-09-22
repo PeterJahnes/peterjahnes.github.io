@@ -1,5 +1,9 @@
-# Title
-#### Subtitle
-#### Date
+# Juming into the Kitchen
+#### 
+#### 9/21/2014
 
-I have "lost the file" in Git somehow. I will get it here as soon as I can find it.
+DevBootCamp is exhilarating and scary at the same time. This seems like a much more like a do it yourself venture where you are guided through the learning process while being surrounded by amazing people. Going from my military school days, which last formal education experience that I took seriously, to this is going to be like going to Titan or Europa. I have been learning coding on my own and have found it very frustrating, Chinese internet didn't help much either. Most of what I have been doing is copy, paste, modify. That being said I am really looking forward to learning best practices and the art of coding so I am able to solve a coding challenge on my own. As Shereef said, I am going form the restaurant to the kitchen, no more single answer questions, no more “yes sir you are right”, and gone are the days where I know where I am going. 
+
+My impression of DBC is that of finding my own path through the woods. There will be guides that will teach me the important skills along the way. Where the water is, is no longer taught to me. Rather here are the signs of where water is, now go and find it yourself, but we will be right here if you get lost along the way. There will be many ways to take that path and where you end up on the other side of the woods is anybody guess, but if the effort is put into the hike then the rewards will be exponential.
+
+The culture of DBC is going to be something new to me. Being surrounded by people who have the same interests and level of enthusiasm is a very difficult situation to find. In my schooling and work life there has always been a hierarchy, I always landed somewhere in the middle, and I never truly liked it. I am hoping to jump into this new culture and be able to give back. I know it will be difficult for me to find all of the balances that I need to. As a wise man said a long time ago in a galaxy far far away, “Do, or do not. There is no try” 
