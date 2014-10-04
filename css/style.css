@@ -95,20 +95,20 @@ ul#menuul li:hover .blogsub{
 
 #contact {
 	position: relative;
-	height: 100px;
+	height: 80px;
 	margin: 2% 2.5% 2% 2.5%;
 	border-radius: 4px;
-	background-color: #2764D5;
+	background-color: #eeeeee;
+	padding: 20px;
+	text-align: right;
 }
 
 #about {
 	position: relative;
-	width: 100%;
-	max-width: 500px;
-	float: left;
 	margin: 2% 2.5% 2% 2.5%;
 	border-radius: 4px;
-	background-color: #2764D5;
+	background-color: #eeeeee;
+	padding: 15px;
 }
 
 #blogcontainer {
