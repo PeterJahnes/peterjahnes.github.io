@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peter Jahnes</title>
+		<<link rel="stylesheet" type="text/css" href="../css/style.css">
+	</head>
+	<body id = "body">
+		<div id = "sidebar">
+			<div id = "selfimg">
+			</div>
+			<nav id = "menu">
+				<ul id = "menuul">
+					<li><a href = "../index.html">Home</a></li>
+					<li><a href = "#">Projects</a>
+						<ul class = "blogsub">
+							<li><a href = "./projects/gps1-2.html">Project.1</a></li>
+						</ul>
+					</li>
+					<li><a href = "#">Blog</a>
+						<ul class = "blogsub">
+							<li><a href = "./c1-chefs-kitchen.html">Blog.1</a></li>
+							<li><a href = "./t1-git-blog.html">Blog.2</a></li>
+							<li><a href = "./t2-css-design.html">Blog.3</a></li>
+							<li><a href = "./t3-arrays-hashes.html">Blog.4</a></li>
+							<li><a href = "./c3_thinking-style.html">Blog.5</a></li>
+						</ul>
+					</li>
+					<li><a href = "../index.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class = "clear"></div>
+		<article class = "blogpost">
+			<header>
+				<h1>Socks in an Array?</h1>
+				<ul>
+					<li>Peter Jahnes</li>
+					<li>10/7/2014</li>
+					<li>Arrays and Hashes, a comparison</li>
+				</ul>
+			</header>
+			<div class = "blogcontent">
+				<p>Ruby has Array's and Hash'es. They are both groups of objects.</p>
+
+				<code>[ 4, 2, 5, 3, 7, 10 ]</code>
+				<br>
+				<br>
+				<code>{ 0 => 4, 1 => 2, 0 => 5, 3 => 3, 4 => 7, 5 => 10 }</code>
+
+				</p>They can both have any type of object such as an integer above or a string below,</p>
+
+				<code>[ 'cat', 'dog', 'mouse']</code>
+				<br>
+				<br>
+				<code>{ 'feline' => 'cat', 'k-9' => 'dog', 'rodent' => 'mouse' }</code>
+
+				<p>and even different types of objects and even out of order.</p>
+
+				<code>['cat', 4, 'dog', 7, 'mouse', 10]</code>
+				<br>
+				<br>
+				<code>{ 'feline' => 2, 0 => 'dog', 'rodent' => 7 }</code>
+
+				</p>I know them both from another coding language, PHP. The names for them in php are more descriptive.
+				</p>
+
+				</p>An array in ruby is an Indexed array in PHP. A Ruby array is a list of things that have an index, kinda like a very simple address, starting at 0 and counting up. So if I wanted something from the array, I would say</p>
+
+				<code>my_cool_array[42]</code>
+
+				<p>and it would return </p>
+
+				<code>Socks</code>
+
+				</p>The fact that they have an index starting from 0 incrementing by 1 to whatever, is not visibly apparent but it is operatively apparent.
+				</p>
+
+				</p>A hash in ruby is an Associative array in PHP. A Ruby hash is like a list that has labels. So instead of having to go to address 42, we can go to the label like so, </p>
+
+				<code>my_cool_hash['My favorite Christmas present']</code>
+
+				<p>and it would return,</p>
+
+				<code>Socks</code>
+
+				</p>Both Hashes and Arrays are very useful in ruby for dealing with data. It can allow you to sort, remove, add, change, and numerous other actions that can be very helpful in programing.
+				</p>
+			</div>
+		</article>
+		<div id = "socialmedia">
+			<!-- insert social media links here -->
+		</div>
+		<div id = "footer">
+			&#169; 2014 Peter Jahnes
+		</div>
+	</body>
+</html>
