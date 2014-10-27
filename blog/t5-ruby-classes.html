@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peter Jahnes</title>
+		<<link rel="stylesheet" type="text/css" href="../css/style.css">
+	</head>
+	<body id = "body">
+		<div id = "sidebar">
+			<div id = "selfimg">
+			</div>
+			<nav id = "menu">
+				<ul id = "menuul">
+					<li><a href = "../index.html">Home</a></li>
+					<li><a href = "#">Projects</a>
+						<ul class = "blogsub">
+							<li><a href = "./projects/gps1-2.html">Project.1</a></li>
+						</ul>
+					</li>
+					<li><a href = "#">Blog</a>
+						<ul class = "blogsub">
+							<li><a href = "./c1-chefs-kitchen.html">Blog.1</a></li>
+							<li><a href = "./t1-git-blog.html">Blog.2</a></li>
+							<li><a href = "./t2-css-design.html">Blog.3</a></li>
+							<li><a href = "./t3-arrays-hashes.html">Blog.4</a></li>
+							<li><a href = "./c3_thinking-style.html">Blog.5</a></li>
+						</ul>
+					</li>
+					<li><a href = "../index.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class = "clear"></div>
+		<article class = "blogpost">
+			<header>
+				<h1>Factory class.</h1>
+				<ul>
+					<li>Peter Jahnes</li>
+					<li>10/24/2014</li>
+					<li>Classes in Ruby</li>
+				</ul>
+			</header>
+			<div class = "blogcontent">
+				<p>Its week 5 here at my in home DBC and we have just finished a week on classes in ruby.  Classes are not new to me and I feel that we have only scratched the surface. The classes that we have built this week are only comprised of 2 to 4 methods that accomplish the goals set for us. These classes have been used to manipulate data and return it in a human readable format. I feel that they have lots more potential then what we have been using them for.</p>
+				<p>A brief explanation. I feel that classes are like factories. You put raw materials into them and they can produce several different products with those materials.  I will lay out a pseudo coded class for you to show a factory as a class</p>
+				<p>WARNING! All method and events in this class – even those based on real people-- are entirely fictional. All methods actions are impersonated.....poorly. The following program contains bad methods and doe to its content it should not be taken seriously by anyone. </p>
+				<pre><code>
+class Factory
+	def initialize (metal, plastic, rubber, cloth, leather, glass)
+		@metal = metal
+		@plastic = plastic.shread
+		@rubber = rubber
+		@cloth = cloth
+		@leather = leather
+		@glass = glass
+		@car = nil
+	end
+
+	def make_car (size, class, power)
+		@car = (make_engine (power) + make_frame (size) + def make_body (size) + make_interior (class, size)).assemble
+	end
+
+	Private
+
+	def make_engine (power)
+		@metal.melt.forge.polish.build_engine(power)
+	end
+
+	def make_frame (size)
+		@metal(size).melt.forge.paint.build_frame
+	end
+
+	def make_body (size)
+		@metal(size).melt.forge.paint.build_body + @glass(size).melt.forge.paint.build_body 
+	end
+
+	def make_interior (class, size)
+		if class == high
+			 @lether(size).cut.color.build_interior + @plastic(size).melt.mold.addcolor.build_interior
+		elsif class == low
+			  @cloth(size).cut.color.build_interior + @plastic(size).melt.mold.addcolor.build_interior
+		end
+	end
+end
+				</code></pre>
+				<p>Ok, so, this is looks complicated but I am sure that car enthusiasts and builders would be ashamed at my over simplification of building a work of art. It is really not that complicated, lets go throught these one by one.</p>
+				<p>First we have to initialize the factory. This is essentialy like turining the fatory on and delivering all of the raw materials like metal, glass, and and so on. Once delivered, the raw materials get processed and then stored in the appropriate places. The factory in now ready to use. In order to use a class you need to start it up. This is one of the public methods in this and most classes, don't worry about that public, It just means that you can call it from outside of the class. It is kinda a no brainer, if you have to use this to start the class then you need to be able to call it from outside.</p>
+				<p>Then we have the only other public method which is <code>make_car</code>. This method is used to make a car. When you make a car you have to tell it what kind of car you want, the size of the car, how much power you want it to have, and and whether you want the fancy package. The method then calls all of the components and tells them what kind of parts to make. It then assembles them.</p>
+				<p>You will notice the <code>Private</code> below the make_car method, this makes the methods below it private to this class and they can not be called from outside of the class. The others are private because when a customer orders, they will only be ordering a car, there is no reason for them to just order the frame.</p>
+				<p> The next four methods build a part of the car. They take the raw materials that you gave to the factory and turn them into the parts that are needed to build the car that is requested. I know my methods are not real ruby methods but as I am learning ruby, I am starting to be able to think of things in this fashion and its fun to play around with it. Anyways I hope this helps. Cheers!</p>
+			</div>
+		</article>
+		<div id = "socialmedia">
+			<!-- insert social media links here -->
+		</div>
+		<div id = "footer">
+			&#169; 2014 Peter Jahnes
+		</div>
+	</body>
+</html>
