@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peter Jahnes</title>
+		<<link rel="stylesheet" type="text/css" href="../css/style.css">
+	</head>
+	<body id = "body">
+		<div id = "sidebar">
+			<div id = "selfimg">
+			</div>
+			<nav id = "menu">
+				<ul id = "menuul">
+					<li><a href = "../index.html">Home</a></li>
+					<li><a href = "#">Projects</a>
+						<ul class = "blogsub">
+							<li><a href = "./projects/gps1-2.html">Project.1</a></li>
+						</ul>
+					</li>
+					<li><a href = "#">Blog</a>
+						<ul class = "blogsub">
+							<li><a href = "./c1-chefs-kitchen.html">Blog.1</a></li>
+							<li><a href = "./t1-git-blog.html">Blog.2</a></li>
+							<li><a href = "./t2-css-design.html">Blog.3</a></li>
+							<li><a href = "./t3-arrays-hashes.html">Blog.4</a></li>
+							<li><a href = "./c3_thinking-style.html">Blog.5</a></li>
+						</ul>
+					</li>
+					<li><a href = "../index.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class = "clear"></div>
+		<article class = "blogpost">
+			<header>
+				<h1>Stereotype Threat</h1>
+				<ul>
+					<li>Peter Jahnes</li>
+					<li>11/2/2014 </li>
+				</ul>
+			</header>
+			<div class = "blogcontent">
+				<!-- insert content here -->
+			</div>
+		</article>
+		<div id = "socialmedia">
+			<!-- insert social media links here -->
+		</div>
+		<div id = "footer">
+			&#169; 2014 Peter Jahnes
+		</div>
+	</body>
+</html>
