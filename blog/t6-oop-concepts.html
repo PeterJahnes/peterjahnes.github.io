@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peter Jahnes</title>
+		<<link rel="stylesheet" type="text/css" href="../css/style.css">
+	</head>
+	<body id = "body">
+		<div id = "sidebar">
+			<div id = "selfimg">
+			</div>
+			<nav id = "menu">
+				<ul id = "menuul">
+					<li><a href = "../index.html">Home</a></li>
+					<li><a href = "#">Projects</a>
+						<ul class = "blogsub">
+							<li><a href = "./projects/gps1-2.html">Project.1</a></li>
+						</ul>
+					</li>
+					<li><a href = "#">Blog</a>
+						<ul class = "blogsub">
+							<li><a href = "./c1-chefs-kitchen.html">Blog.1</a></li>
+							<li><a href = "./t1-git-blog.html">Blog.2</a></li>
+							<li><a href = "./t2-css-design.html">Blog.3</a></li>
+							<li><a href = "./t3-arrays-hashes.html">Blog.4</a></li>
+							<li><a href = "./c3_thinking-style.html">Blog.5</a></li>
+						</ul>
+					</li>
+					<li><a href = "../index.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class = "clear"></div>
+		<article class = "blogpost">
+			<header>
+				<h1>Class vs Module</h1>
+				<ul>
+					<li>Peter Jahnes</li>
+					<li>11/1/2014</li>
+					<li>Simply Put</li>
+				</ul>
+			</header>
+			<div class = "blogcontent">
+				<<p>Classes and modules are very similar in many ways but there are definitely specific uses for both of them. Both have methods and constants inside of them. They have basically the same syntax. However, you should treat module like a hardware store and classes like a kitchen.</p>
+				<<p>Modules are used to group a collection of methods, constants, and classes. Modules do not allow inheritance like classes do instead you include it in one or many classes and other methods. It allows you to have DRYer code by factoring out objects that are commonly used. In a way it is like having global but selective inheritance. You can have a class inside a module but not the other way around ( at least you wouldn't want to). Modules can not have instances, but they can hold classes. The reason I say use them like hardware store is because you can use them to include building materials and tools for what you are doing.</p>
+				<<p>A classes best use is for instances. This allows you to create objects and manipulate them in a standard way as you see fit. You can use them to have inheritance so that they inherit from another class, this allow you to make your code DRYer if you have many related but not identical objects that you want to make. You don't have to use them instanced, which means that you can use them as a module and take advantage of the inheritance in your organization.</p>
+				<<p>Which one you use in the end with vary greatly with the scope and organization of your project. Being that I am not experienced in ruby I can't tell you which one is used more, but I can see plenty of use for both.</p>
+			</div>
+		</article>
+		<div id = "socialmedia">
+			<!-- insert social media links here -->
+		</div>
+		<div id = "footer">
+			&#169; 2014 Peter Jahnes
+		</div>
+	</body>
+</html>
