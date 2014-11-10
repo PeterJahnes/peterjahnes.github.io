@@ -1,0 +1,39 @@
+body {
+	background-color: darkblue;
+}
+
+header {
+	background-color: black;
+	color: white;
+	border: 4px outset darkgreen;
+	width: 900px;
+	margin: 20px auto;
+	padding: 12px;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.boxT {
+	font-size: 22px;
+	background-color: #0000FF;
+	width: 400px;
+	height: 800px;
+	border: 4px inset darkgreen;
+	padding: 8px;
+	position: relative;
+	float:left;
+}
+
+.boxS {
+	font-size: 22px;
+	background-color: #0000FF;
+	width: 400px;
+	height: 388px;
+	border: 4px inset darkgreen;
+	padding: 8px;
+	position: relative;
+	float:left;
+}
